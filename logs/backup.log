@@ -1,0 +1,121 @@
+Please specify --site sitename
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250708_180001-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-08 18:00:02.245245
+Config  : ./library.localhost/private/backups/20250708_180001-library_localhost-site_config_backup.json 94.0B
+Database: ./library.localhost/private/backups/20250708_180001-library_localhost-database.sql.gz         244.1KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250709_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-09 12:00:04.401280
+Config  : ./library.localhost/private/backups/20250709_120002-library_localhost-site_config_backup.json 94.0B
+Database: ./library.localhost/private/backups/20250709_120002-library_localhost-database.sql.gz         255.1KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250709_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-09 18:00:06.670546
+Config  : ./library.localhost/private/backups/20250709_180004-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250709_180004-library_localhost-database.sql.gz         302.5KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250710_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-10 12:00:04.805354
+Config  : ./library.localhost/private/backups/20250710_120002-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250710_120002-library_localhost-database.sql.gz         333.7KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250710_180003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-10 18:00:05.624890
+Config  : ./library.localhost/private/backups/20250710_180003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250710_180003-library_localhost-database.sql.gz         389.8KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250711_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-11 12:00:04.750245
+Config  : ./library.localhost/private/backups/20250711_120002-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250711_120002-library_localhost-database.sql.gz         415.1KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250711_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-11 18:00:05.154326
+Config  : ./library.localhost/private/backups/20250711_180004-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250711_180004-library_localhost-database.sql.gz         442.3KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250712_120005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-12 12:00:07.441315
+Config  : ./library.localhost/private/backups/20250712_120005-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250712_120005-library_localhost-database.sql.gz         454.3KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250712_180005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-12 18:00:06.819364
+Config  : ./library.localhost/private/backups/20250712_180005-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250712_180005-library_localhost-database.sql.gz         495.1KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250714_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-14 12:00:06.022564
+Config  : ./library.localhost/private/backups/20250714_120003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250714_120003-library_localhost-database.sql.gz         554.4KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250714_180002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-14 18:00:03.837575
+Config  : ./library.localhost/private/backups/20250714_180002-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250714_180002-library_localhost-database.sql.gz         583.1KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250716_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-16 12:00:06.131661
+Config  : ./library.localhost/private/backups/20250716_120003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250716_120003-library_localhost-database.sql.gz         599.9KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250716_180005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-16 18:00:07.151807
+Config  : ./library.localhost/private/backups/20250716_180005-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250716_180005-library_localhost-database.sql.gz         630.8KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250717_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-17 12:00:04.572627
+Config  : ./library.localhost/private/backups/20250717_120003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250717_120003-library_localhost-database.sql.gz         627.0KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250717_180005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-17 18:00:06.671433
+Config  : ./library.localhost/private/backups/20250717_180005-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250717_180005-library_localhost-database.sql.gz         638.8KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250718_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-18 12:00:05.318746
+Config  : ./library.localhost/private/backups/20250718_120003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250718_120003-library_localhost-database.sql.gz         638.7KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250718_180003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-18 18:00:06.131142
+Config  : ./library.localhost/private/backups/20250718_180003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250718_180003-library_localhost-database.sql.gz         822.6KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250719_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-19 12:00:05.221566
+Config  : ./library.localhost/private/backups/20250719_120003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250719_120003-library_localhost-database.sql.gz         861.5KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250719_180003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-19 18:00:05.341545
+Config  : ./library.localhost/private/backups/20250719_180003-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250719_180003-library_localhost-database.sql.gz         939.2KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_11de0f3fefb611a6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _11de0f3fefb611a6 | /usr/bin/gzip >> ./library.localhost/private/backups/20250721_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-21 12:00:04.146699
+Config  : ./library.localhost/private/backups/20250721_120002-library_localhost-site_config_backup.json 161.0B
+Database: ./library.localhost/private/backups/20250721_120002-library_localhost-database.sql.gz         932.9KiB
+Backup for Site library.localhost has been successfully completed

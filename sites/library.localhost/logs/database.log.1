@@ -1,0 +1,96 @@
+2025-07-10 18:19:48,674 WARNING database DDL Query made to DB:
+create table `tabTree` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`lft` int(11) not null default 0,
+`rgt` int(11) not null default 0,
+`is_group` int(1) not null default 0,
+`old_parent` varchar(140),
+`parent_tree` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-10 18:20:16,622 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTree` ADD COLUMN `name1` varchar(140)
+2025-07-10 18:21:08,194 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTree` ADD UNIQUE INDEX IF NOT EXISTS name1 (`name1`)
+2025-07-10 18:23:53,277 WARNING database DDL Query made to DB:
+create table `tabChildss` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`lft` int(11) not null default 0,
+`rgt` int(11) not null default 0,
+`is_group` int(1) not null default 0,
+`old_parent` varchar(140),
+`parent_childss` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-10 18:24:15,875 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChildss` ADD COLUMN `name1` varchar(140)
+2025-07-10 18:24:30,272 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChildss` ADD UNIQUE INDEX IF NOT EXISTS name1 (`name1`)
+2025-07-10 19:09:42,929 WARNING database DDL Query made to DB:
+create table `tabEmployee` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-10 19:12:07,374 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `employee_name` varchar(140), ADD COLUMN `age` int(11) not null default 0, ADD COLUMN `qualification` varchar(140), ADD COLUMN `phone` varchar(140), ADD COLUMN `address` varchar(140), ADD COLUMN `role` varchar(140)
+2025-07-10 19:14:02,487 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD UNIQUE INDEX IF NOT EXISTS employee_name (`employee_name`)
+2025-07-10 19:15:09,786 WARNING database DDL Query made to DB:
+create table `tabWorkshop Calendar Grantt` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-10 19:18:07,845 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkshop Calendar Grantt` ADD COLUMN `workshop_name` varchar(140), ADD COLUMN `instructor` varchar(140), ADD COLUMN `start_date` date, ADD COLUMN `end_date` date, ADD COLUMN `status` varchar(140), ADD COLUMN `venue` varchar(140), ADD COLUMN `description` text, ADD COLUMN `capacity` int(11) not null default 0
