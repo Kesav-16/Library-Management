@@ -1,0 +1,300 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FL.###",
+ "creation": "2025-07-09 11:16:08.872376",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "auto_complete",
+  "attach",
+  "image",
+  "attach_image",
+  "button",
+  "check",
+  "currency",
+  "barcode",
+  "color",
+  "column_break_imvl",
+  "data",
+  "date",
+  "datetime",
+  "duration",
+  "read_only",
+  "rating",
+  "select",
+  "time",
+  "column_break_sqpc",
+  "link",
+  "dynamic_link",
+  "float",
+  "int",
+  "sign",
+  "section_break_cnzo",
+  "heading",
+  "html",
+  "icon",
+  "geolocation",
+  "password",
+  "percent",
+  "phone",
+  "table",
+  "table_multiselect",
+  "column_break_eqes",
+  "long_text",
+  "small_text",
+  "text",
+  "text_editor",
+  "column_break_rkja",
+  "html_editor_ltdz",
+  "json",
+  "markdown_editor"
+ ],
+ "fields": [
+  {
+   "fieldname": "auto_complete",
+   "fieldtype": "Autocomplete",
+   "label": "Auto Complete",
+   "options": "Kg\nLiter\nPacket\nBox\nBag\nBottle\nDozen\nPiece\nFruits\nVegetables\nDairy\nBakery\nMeat\nSeafood\nSnacks\nBeverages\nHousehold Items\nPersonal Care\nFrozen Foods\nOrganic\nSpices\nCondiments\nCereals\nBaby Care\nPet Care\nHealth & Wellness\nKg\nGram\nLiter\nMilliliter\nPacket\nBox\nBag\nBottle\nPiece\nDozen\nCarton\nBundle\nSet\nCash\nCredit Card\nDebit Card\nUPI\nNet Banking\nWallet\nGift Card\nCheque\nNestle\nAmul\nBritannia\nParle\nTata\nPatanjali\nHaldiram\nDabur\nGodrej\nITC\nMother Dairy\nKissan\nFortune"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "color"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "Data"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "Float"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "Barcode"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
+  },
+  {
+   "fieldname": "geolocation",
+   "fieldtype": "Geolocation",
+   "label": "Geolocation"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "attach_image"
+  },
+  {
+   "fieldname": "int",
+   "fieldtype": "Int",
+   "label": "Int"
+  },
+  {
+   "fieldname": "json",
+   "fieldtype": "JSON",
+   "label": "Json"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "read_only",
+   "fieldtype": "Read Only",
+   "label": "Read only"
+  },
+  {
+   "fieldname": "markdown_editor",
+   "fieldtype": "Markdown Editor",
+   "label": "Markdown editor"
+  },
+  {
+   "fieldname": "small_text",
+   "fieldtype": "Small Text",
+   "label": "Small Text"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Grocery Item"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "Html"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "LInk",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "long_text",
+   "fieldtype": "Long Text",
+   "label": "Long text"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "Percent"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Select",
+   "options": "1\n2\n3\n4\n5\n6\n7"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "text_editor",
+   "fieldtype": "Text Editor",
+   "label": "Text editor"
+  },
+  {
+   "fieldname": "column_break_imvl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "Datetime"
+  },
+  {
+   "fieldname": "column_break_sqpc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Signature",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "section_break_cnzo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_multiselect",
+   "fieldtype": "Table MultiSelect",
+   "label": "Table Multiselect",
+   "options": "Grocery Item"
+  },
+  {
+   "fieldname": "column_break_eqes",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rkja",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_editor_ltdz",
+   "fieldtype": "HTML Editor",
+   "label": "HTML Editor"
+  },
+  {
+   "fieldname": "dynamic_link",
+   "fieldtype": "Dynamic Link",
+   "label": "Dynamic link",
+   "options": "link"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-10 17:23:57.200388",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Field Types",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

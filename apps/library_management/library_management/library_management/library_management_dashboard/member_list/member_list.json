@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Members",
+   "width": "Half"
+  },
+  {
+   "chart": "Members",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-07-14 13:52:20.865973",
+ "dashboard_name": "Member list",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-07-14 13:53:11.348640",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Member list",
+ "owner": "Administrator"
+}

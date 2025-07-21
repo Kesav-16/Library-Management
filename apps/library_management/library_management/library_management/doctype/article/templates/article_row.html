@@ -1,0 +1,83 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+	/* Document Card Container */
+.doc-card {
+  display: flex;
+  max-width: 800px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.4s ease;
+  animation: fadeInSlide 1s ease;
+}
+
+.doc-card:hover {
+  transform: scale(1.02);
+}
+
+/* Left-side Image */
+.doc-image {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  overflow: hidden;
+  border-right: 1px solid #eee;
+}
+
+.doc-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.doc-image img:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+
+/* Right-side Info */
+.doc-info {
+  flex: 2;
+  padding: 20px 30px;
+}
+
+.doc-info h2 {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.doc-info h2 a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.doc-info h2 a:hover {
+  color: #007acc;
+}
+
+.doc-info .author {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+</style>
+
+<div class="doc-card">
+  <div class="doc-image">
+    <a href="{{ doc.route }}">
+      <img src="{{ doc.image }}" alt="{{ doc.name }}">
+    </a>
+  </div>
+
+  <div class="doc-info">
+    <h2><a href="{{ doc.route }}">{{ doc.name }}</a></h2>
+    <p class="author">By {{ doc.author }}</p>
+    <p class="isbn"><strong>ISBN:</strong> {{ doc.isbn }}</p>
+  </div>
+</div>
