@@ -249,3 +249,13 @@ doctype_list_js = {
 doctype_js = {
     "Library Member": "public/js/library_member.js"
 }
+
+
+
+scheduler_events = {
+    "cron": {
+        "* * * * *": [
+            "library_management.library_management.doctype.library_member.library_member.add_dynamic_member"
+        ]
+    }
+}

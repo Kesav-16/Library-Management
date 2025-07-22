@@ -350,3 +350,26 @@ Traceback (most recent call last):
     doctype_list_js = {
                       ^
 SyntaxError: '{' was never closed
+2025-07-21 17:20:48,960 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {}
+2025-07-21 17:21:12,547 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {}
+2025-07-21 17:25:57,718 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {}
+2025-07-21 17:30:48,724 ERROR frappe Error while inserting deferred Error Log record: Error Log dr7l3npmuj: 'Title' (Module import failed for Library Member
+, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.library_member\n') will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-21 17:46:47,891 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'first_name': 'Raj', 'last_name': 'K', 'email_address': 'rajkumar@gmail.com', 'phone': '+91-8866352123'}
+2025-07-21 18:18:40,480 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-21 18:19:09,378 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}

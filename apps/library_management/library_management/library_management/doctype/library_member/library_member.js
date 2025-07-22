@@ -158,3 +158,32 @@ frappe.ui.form.on('Library Member', {
 //         frappe.msgprint("Field properties updated for Library Member!");
 //     }
 // });
+
+
+// Standard Script form
+
+// frappe.ui.form.on('Library Member', {
+//     onload: function(frm) {
+//         frappe.msgprint('Welcome to the Library Member form!');
+//     },
+
+//     first_name: function(frm) {
+//         update_full_name(frm);
+//     },
+
+//     last_name: function(frm) {
+//         update_full_name(frm);
+//     },
+
+//     validate: function(frm) {
+//         if (!frm.doc.email_address) {
+//             frappe.throw('Email address is required.');
+//         }
+//     }
+// });
+
+// function update_full_name(frm) {
+//     if (frm.doc.first_name && frm.doc.last_name) {
+//         frm.set_value('full_name', `${frm.doc.first_name} ${frm.doc.last_name}`);
+//     }
+// }

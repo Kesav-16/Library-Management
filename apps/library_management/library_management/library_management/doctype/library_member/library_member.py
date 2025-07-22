@@ -43,4 +43,25 @@ def add_static_member():
     frappe.db.commit()
     return {"status": "success", "name": doc.name}
 
+@frappe.whitelist()
+def add_dynamic_member():
+    # Hardcoded values or generate dynamically
+    first_name = "Raghul"
+    last_name = "S"
+    email_address = "raghul@gmail.com"
+    phone = "+91-9876534210"
+
+    if frappe.db.exists("Library Member", {"email_address": email_address}):
+        frappe.throw("Member already exists with this email.")
+
+    doc = frappe.get_doc({
+        "doctype": "Library Member",
+        "first_name": first_name,
+        "last_name": last_name,
+        "email_address": email_address,
+        "phone": phone
+    })   
+    doc.insert(ignore_permissions=True)
+    frappe.db.commit()
+
 

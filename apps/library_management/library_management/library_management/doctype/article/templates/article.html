@@ -1,173 +1,218 @@
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Card – Animated</title>
 
-<style>
- body {
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #fdfbfb, #ebedee);
-  padding: 60px 20px;
-  color: #333;
-}
+  <!-- Google Font & Animate.css -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-/* Book Card Container */
-.book-card {
-  display: flex;
-  max-width: 1000px;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  overflow: hidden;
-  animation: fadeInSlide 1.2s ease;
-  transition: transform 0.4s ease;
-}
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      padding: 60px 20px;
+      color: #333;
+    }
 
-.book-card:hover {
-  transform: scale(1.01);
-}
+    .book-card {
+      display: flex;
+      max-width: 1100px;
+      margin: auto;
+      background: #ffffff;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border-radius: 18px;
+      overflow: hidden;
+      animation: fadeInSlide 1.2s ease forwards;
+    }
 
-/* Left-side Image */
-.book-image {
-  flex: 1;
-  min-width: 300px;
-  max-width: 350px;
-  overflow: hidden;
-  border-right: 1px solid #eee;
-}
+    .book-image {
+      flex: 1;
+      min-width: 320px;
+      max-width: 400px;
+      overflow: hidden;
+    }
 
-.book-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
+    .book-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
 
-.book-image img:hover {
-  transform: scale(1.05) rotate(1deg);
-}
+    .book-image img:hover {
+      transform: scale(1.05);
+    }
 
-/* Right-side Info */
-.book-info {
-  flex: 2;
-  padding: 30px 40px;
-  animation: fadeIn 1.2s ease;
-}
+    .book-info {
+      flex: 2;
+      padding: 40px;
+      background: #f9fafb;
+    }
 
-.book-info h1 {
-  font-size: 2.4rem;
-  color: #111;
-  margin-bottom: 10px;
-}
+    .book-info h1 {
+      font-size: 2.2rem;
+      color: #1f2937;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
 
-.book-info .author {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 20px;
-}
+    .book-info .author {
+      font-size: 1.1rem;
+      color: #6b7280;
+      margin-bottom: 20px;
+    }
 
-/* Status Badge */
-.status-badge {
-  display: inline-block;
-  padding: 10px 20px;
+    .status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
   border-radius: 30px;
   font-weight: 600;
-  margin-bottom: 25px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   animation: pulse 1.5s infinite;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.status-badge img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.9;
 }
 
 .status-badge.available {
-  background: #d1fae5;
-  color: #065f46;
+  background: #ecfdf5;
+  color: #047857;
   border: 1px solid #10b981;
 }
 
 .status-badge.issued {
-  background: #fee2e2;
-  color: #991b1b;
+  background: #fef2f2;
+  color: #b91c1c;
   border: 1px solid #ef4444;
 }
 
-/* Details Box */
-.details {
-  background: #f9f9f9;
-  border-left: 4px solid #ccc;
-  padding: 15px 20px;
-  border-radius: 10px;
+    .details {
+      background: #fff;
+      padding: 20px 25px;
+      border-left: 4px solid #6366f1;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .details p {
+      margin: 0 0 10px;
+      color: #374151;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      color: #4b5563;
+      line-height: 1.8;
+    }
+    .book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
   margin-bottom: 30px;
+  background: #f3f4f6;
+  padding: 14px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
 }
 
-.details p {
-  margin-bottom: 8px;
-  color: #555;
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+  color: #374151;
 }
 
-/* Description */
-.description {
-  font-size: 1.05rem;
-  color: #444;
-  line-height: 1.8;
+.meta-item img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.85;
 }
 
-/* Animations */
-@keyframes fadeInSlide {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
+    /* Animations */
+    @keyframes fadeInSlide {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.03);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-    
-</style>
-<div class="book-card">
-  <div class="book-image">
-    <img src="{{ image }}" alt="{{ title }}">
+    /* Responsive */
+    @media (max-width: 768px) {
+      .book-card {
+        flex-direction: column;
+      }
+      .book-image {
+        max-height: 300px;
+      }
+      .book-info {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book-card wow animate__animated animate__fadeInUp">
+    <div class="book-image wow animate__animated animate__zoomIn">
+      <img src="{{ image }}" alt="{{ title }}">
+    </div>
+
+    <div class="book-info">
+      <h1 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.3s">{{ title }}</h1>
+      <p class="author wow animate__animated animate__fadeIn" data-wow-delay="0.4s">By {{ author }}</p>
+
+      {% if status == 'Available' %}
+  <div class="status-badge available">
+    <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Available Icon">
+    <span>Available</span>
   </div>
+{% elif status == 'Issued' %}
+  <div class="status-badge issued">
+    <img src="https://cdn-icons-png.flaticon.com/512/3658/3658752.png" alt="Issued Icon">
+    <span>Issued</span>
+  </div>
+{% endif %}<br><br>
 
-  <div class="book-info">
-    <h1>{{ title }}</h1>
-    <p class="author">By {{ author }}</p>
 
-    {% if status == 'Available' %}
-      <span class="status-badge available">Available</span>
-    {% elif status == 'Issued' %}
-      <span class="status-badge issued">Issued</span>
-    {% endif %}
-
-    <div class="details">
-      <p><strong>Publisher:</strong> {{ publisher }}</p>
-      <p><strong>ISBN:</strong> {{ isbn }}</p>
-    </div>
-
-    <div class="description">
-      {{ description }}
-    </div>
+      <div class="book-meta">
+  <div class="meta-item">
+    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995474.png" alt="Publisher Icon">
+    <span><strong>Publisher:</strong> {{ publisher }}</span>
+  </div>
+  <div class="meta-item">
+    <img src="https://cdn-icons-png.flaticon.com/512/1063/1063272.png" alt="ISBN Icon">
+    <span><strong>ISBN:</strong> {{ isbn }}</span>
   </div>
 </div>
+
+
+      <div class="description wow animate__animated animate__fadeIn" data-wow-delay="0.7s">
+        {{ description }}
+      </div>
+    </div>
+  </div>
+
+  <!-- WOW.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+</body>
+</html>
