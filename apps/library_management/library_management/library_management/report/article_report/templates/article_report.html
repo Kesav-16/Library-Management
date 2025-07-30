@@ -1,0 +1,45 @@
+<!-- article_report.html
+<h2 style="text-align:center;">📘 Custom Article Report</h2>
+
+<table border="1" cellspacing="0" cellpadding="5" style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+    <thead style="background-color: #f0f0f0;">
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Publisher</th>
+            <th>Status</th>
+            <th>Member</th>
+            <th>Membership From</th>
+            <th>Membership To</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+        <tr>
+            <td style="text-align: center;">
+                <img src="{{ row.image or 'https://via.placeholder.com/80x100?text=No+Image' }}" width="60" height="80" style="border-radius: 4px;">
+            </td>
+            <td>{{ row.title or '' }}</td>
+            <td>{{ row.author or '' }}</td>
+            <td>{{ row.isbn or '' }}</td>
+            <td>{{ row.publisher or '' }}</td>
+            <td>
+                {% if row.status == "Available" %}
+                    <span style="color: green;">Available</span>
+                {% else %}
+                    <span style="color: red;">{{ row.status }}</span>
+                {% endif %}
+            </td>
+            <td>{{ row.first_name or '' }} {{ row.last_name or '' }}</td>
+            <td>{{ row.from_date or '' }}</td>
+            <td>{{ row.to_date or '' }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<p style="text-align: right; color: #777; font-size: 12px;">
+    Printed by {{ frappe.session.user }} on {{ frappe.utils.nowdate() }}
+</p> -->

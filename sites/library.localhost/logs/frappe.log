@@ -373,3 +373,247 @@ Form Dict: {'doctype': 'Library Member', 'with_parent': '1', 'cached_timestamp':
 2025-07-21 18:19:09,378 ERROR frappe New Exception collected in error log
 Site: library.localhost
 Form Dict: {'doctype': 'Library Member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-24 12:30:31,481 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '2025-07-21 18:57:06.149289', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-24 19:15:17,591 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'some_arg': 'test', 'docs': '{"name":"Dhamo","owner":"Administrator","creation":"2025-07-24 19:03:44.417600","modified":"2025-07-24 19:04:04.551247","modified_by":"Administrator","docstatus":1,"idx":0,"name1":"Dhamo","age":21,"degree":"PhD","role":"Manager","doctype":"Form Api","__last_sync_on":"2025-07-24T13:45:15.361Z"}', 'method': 'custom_method_on_server', 'args': '{"some_arg":"test"}', 'cmd': 'run_doc_method'}
+2025-07-24 19:15:32,490 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'some_arg': 'test', 'docs': '{"name":"Dhamo","owner":"Administrator","creation":"2025-07-24 19:03:44.417600","modified":"2025-07-24 19:04:04.551247","modified_by":"Administrator","docstatus":1,"idx":0,"name1":"Dhamo","age":21,"degree":"PhD","role":"Manager","doctype":"Form Api","__last_sync_on":"2025-07-24T13:45:15.361Z"}', 'method': 'custom_method_on_server', 'args': '{"some_arg":"test"}', 'cmd': 'run_doc_method'}
+2025-07-24 19:16:43,730 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Form Api', 'with_parent': '1', 'cached_timestamp': '2025-07-24 18:02:12.432608', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:10:09,595 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Server Script Demo","name":"new-server-script-demo-tffcfkcstj","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"Wonder"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-07-25 12:10:22,164 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Server Script Demo","name":"new-server-script-demo-tffcfkcstj","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"Wonder"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-07-25 12:10:27,112 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:10:41,679 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:11:04,146 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:11:18,411 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:11:33,919 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:13:13,794 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"SS-007","owner":"Administrator","creation":"2025-07-25 12:12:28.302511","modified":"2025-07-25 12:12:28.302511","modified_by":"Administrator","docstatus":0,"idx":0,"title":"Iron Man","description":"\'Iron Man\' is a newly added book.","amended_from":null,"doctype":"Server Script Demo","__last_sync_on":"2025-07-25T06:42:28.358Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-07-25 12:13:39,257 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:13:53,811 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:14:56,262 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:15:36,417 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:15:45,320 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:15:56,818 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:16:34,661 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:21:22,994 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:21:49,706 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:22:06,395 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:27:16,794 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:27:50,777 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:34:26,189 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '2025-07-25 11:39:20.455716', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:34:28,248 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:35:26,385 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:35:38,756 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:35:50,163 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Server Script Demo', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-25 12:45:59,726 ERROR frappe Error while inserting deferred Error Log record: Error Log lutk734lv0: 'Title' (Module import failed for Server Script Demo, the DocType you're trying to open might be deleted.
+Error: cannot import name 'now_date' from 'frappe.utils' (/home/kesav/library-bench/apps/frappe/frappe/utils/__init__.py)) will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-25 12:45:59,732 ERROR frappe Error while inserting deferred Error Log record: Error Log lutv2p8tvo: 'Title' (Module import failed for Server Script Demo, the DocType you're trying to open might be deleted.
+Error: cannot import name 'now_date' from 'frappe.utils' (/home/kesav/library-bench/apps/frappe/frappe/utils/__init__.py)) will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-25 12:45:59,743 ERROR frappe Error while inserting deferred Error Log record: Error Log lutubsfpag: 'Title' (Module import failed for Server Script Demo, the DocType you're trying to open might be deleted.
+Error: cannot import name 'now_date' from 'frappe.utils' (/home/kesav/library-bench/apps/frappe/frappe/utils/__init__.py)) will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-25 12:45:59,748 ERROR frappe Error while inserting deferred Error Log record: Error Log lut63padgo: 'Title' (Module import failed for Server Script Demo, the DocType you're trying to open might be deleted.
+Error: cannot import name 'now_date' from 'frappe.utils' (/home/kesav/library-bench/apps/frappe/frappe/utils/__init__.py)) will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-25 12:51:26,445 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"SS-013","owner":"Administrator","creation":"2025-07-25 12:50:30.273637","modified":"2025-07-25 12:50:34.303521","modified_by":"Administrator","docstatus":1,"idx":0,"title":"vizhi","description":"Auto-filled: \'vizhi\' is a newly added book.","doctype":"Server Script Demo","__last_sync_on":"2025-07-25T07:21:25.869Z"}', 'print_format': 'Standard', 'no_letterhead': '1', 'letterhead': 'No Letterhead', 'settings': '{}', '_lang': 'en', 'cmd': 'frappe.www.printview.get_html_and_style'}
+2025-07-25 12:51:38,157 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"SS-013","owner":"Administrator","creation":"2025-07-25 12:50:30.273637","modified":"2025-07-25 12:50:34.303521","modified_by":"Administrator","docstatus":1,"idx":0,"title":"vizhi","description":"Auto-filled: \'vizhi\' is a newly added book.","doctype":"Server Script Demo","__last_sync_on":"2025-07-25T07:21:35.351Z"}', 'print_format': 'Standard', 'no_letterhead': '1', 'letterhead': 'No Letterhead', 'settings': '{}', '_lang': 'en', 'cmd': 'frappe.www.printview.get_html_and_style'}
+2025-07-25 12:53:05,211 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"SS-013","owner":"Administrator","creation":"2025-07-25 12:50:30.273637","modified":"2025-07-25 12:50:34.303521","modified_by":"Administrator","docstatus":1,"idx":0,"title":"vizhi","description":"Auto-filled: \'vizhi\' is a newly added book.","doctype":"Server Script Demo","__last_sync_on":"2025-07-25T07:23:04.576Z"}', 'print_format': 'Standard', 'no_letterhead': '1', 'letterhead': 'No Letterhead', 'settings': '{}', '_lang': 'en', 'cmd': 'frappe.www.printview.get_html_and_style'}
+2025-07-25 14:53:03,763 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Article Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-25 14:54:27,788 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Article Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-25 15:06:53,985 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'filters': '{}', 'cmd': 'library_management.library_management.report.article_report.article_report.get_custom_html'}
+2025-07-25 16:45:55,494 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Article Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-25 16:46:45,237 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Article Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-25 17:00:39,673 ERROR frappe Error while inserting deferred Error Log record: Error Log b5s0ils7mp: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.author,\n            A.isbn,\n            A.status,\n            A.publisher,\n ...' at line 4")) will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-25 17:00:39,676 ERROR frappe Error while inserting deferred Error Log record: Error Log b5spe5bbr0: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.author,\n            A.isbn,\n            A.status,\n            A.publisher,\n ...' at line 4")) will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-26 11:22:19,547 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Member', 'with_parent': '1', 'cached_timestamp': '2025-07-25 19:22:15.627840', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-26 13:13:27,778 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"Library Member Report","owner":"Administrator","creation":"2025-07-26 11:45:05.967787","modified":"2025-07-26 11:45:05.967787","modified_by":"Administrator","docstatus":0,"idx":0,"report_name":"Library Member Report","ref_doctype":"Library Member","is_standard":"Yes","module":"Library Management","report_type":"Script Report","add_total_row":0,"disabled":0,"prepared_report":0,"add_translate_data":0,"timeout":0,"json":{},"doctype":"Report","filters":[],"columns":[],"roles":[{"name":"u13ckiclo5","owner":"Administrator","creation":"2025-07-26 11:45:05.967787","modified":"2025-07-26 11:45:05.967787","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","parent":"Library Member Report","parentfield":"roles","parenttype":"Report","doctype":"Has Role"},{"name":"u13tameoc9","owner":"Administrator","creation":"2025-07-26 11:45:05.967787","modified":"2025-07-26 11:45:05.967787","modified_by":"Administrator","docstatus":0,"idx":2,"role":"Purchase Manager","parent":"Library Member Report","parentfield":"roles","parenttype":"Report","doctype":"Has Role"},{"name":"u13t18uk3o","owner":"Administrator","creation":"2025-07-26 11:45:05.967787","modified":"2025-07-26 11:45:05.967787","modified_by":"Administrator","docstatus":0,"idx":3,"role":"Guest","parent":"Library Member Report","parentfield":"roles","parenttype":"Report","doctype":"Has Role"}],"__last_sync_on":"2025-07-26T07:34:32.688Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-07-26 13:24:38,275 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Library Member Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-26 13:24:53,273 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Library Member Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-26 13:25:59,958 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'report_name': 'Library Member Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-28 14:27:52,178 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Article', 'start': '2025-06-29 00:00:00', 'end': '2025-08-10 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:28:16,166 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Article', 'start': '2025-06-29 00:00:00', 'end': '2025-08-10 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:30:51,168 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Article', 'start': '2025-06-29 00:00:00', 'end': '2025-08-10 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:43:23,134 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-06-29 00:00:00', 'end': '2025-08-10 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:51:15,067 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:52:16,792 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:54:41,536 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-28 14:55:13,493 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:56:13,750 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:57:54,549 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:58:05,651 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 14:58:49,617 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-28 15:00:00,979 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Common Utilities API', 'start': '2025-07-28', 'end': '2025-08-27', 'field_map': '{"start":"start_date","end":null,"title":"name"}', 'filters': '{}', 'fields': '["name","start_date"]', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-07-30 11:34:59,403 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Chart API', 'with_parent': '1', 'cached_timestamp': '2025-07-30 11:33:06.701737', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 12:35:45,367 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'cmd': 'library_management.library_management.doctype.chart_api.chart_api.get_chart_data'}
+2025-07-30 14:37:02,681 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"doctype":"Scanner Test","user_name":"WIFI","password":"S"}', 'cmd': 'frappe.client.insert'}
+2025-07-30 14:38:01,165 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"doctype":"Scanner Test","user_name":"WIFI","password":"T"}', 'cmd': 'frappe.client.insert'}
+2025-07-30 14:45:54,807 ERROR frappe Error while inserting deferred Error Log record: Error Log mvcpb4mm60: 'Title' (Module import failed for Scanner Test, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.scanner_test') will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-30 14:45:54,809 ERROR frappe Error while inserting deferred Error Log record: Error Log mvc3ss8ms6: 'Title' (Module import failed for Scanner Test, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.scanner_test') will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-30 16:19:32,160 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Family Tree', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 16:20:52,543 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Family Tree', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 16:21:11,797 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Family Tree', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 16:27:06,481 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Family Tree API', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 16:28:16,622 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Family Tree API', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 16:30:25,801 ERROR frappe Error while inserting deferred Error Log record: Error Log k72f2dso5m: 'Title' (Module import failed for Family Tree API, the DocType you're trying to open might be deleted.
+Error: No module named 'library_management.library_management.doctype.family_tree_api.family_tree_api') will get truncated, as max characters allowed is 140
+Site: library.localhost
+Form Dict: {}
+2025-07-30 16:37:48,182 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Tree API', 'with_parent': '1', 'cached_timestamp': '2025-07-30 16:33:43.140165', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 17:17:37,398 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Tree API', 'with_parent': '1', 'cached_timestamp': '2025-07-30 17:09:57.725622', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 17:29:43,540 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'method': 'library_management.library_management.doctype.tree_api.tree_api.add_node', 'source_name': '', 'args': '{}', 'selected_children': '', 'cmd': 'frappe.model.mapper.make_mapped_doc'}
+2025-07-30 18:15:04,118 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Tree API', 'is_group': '1', 'member_name': 'Raman Sarasu', 'parent': 'Family Member', 'is_root': 'true', 'cmd': 'frappe.desk.treeview.add_node'}
+2025-07-30 18:15:38,232 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Tree API', 'is_group': '0', 'member_name': 'Raman', 'parent': 'Family Member', 'is_root': 'true', 'cmd': 'frappe.desk.treeview.add_node'}
+2025-07-30 18:49:38,348 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Tree API', 'is_group': '1', 'member_name': 'Raman', 'parent': 'Family Member', 'is_root': 'true', 'cmd': 'frappe.desk.treeview.add_node'}

@@ -13,20 +13,10 @@ class LibraryMember(Document):
         self.full_name = f'{self.first_name} {self.last_name or ""}'
         # frappe.msgprint('Robertson')  # Optional debug message
     
-    # def before_insert(self):
-    #     frappe.msgprint("Before Insert Triggered")
-    #     self.full_name = f"{self.first_name} {self.last_name or ''}".strip()
-
-    # def after_insert(self):
-    #     frappe.msgprint(f"New member {self.full_name} inserted successfully!")
-
-    # def validate(self):
-    #     if not self.email_address:
-    #         frappe.throw("Email Address is mandatory")
-
+   
     # 
     
-
+# using static reords created the records using Server Script````````````````````````
 @frappe.whitelist()
 def add_static_member():
     if frappe.db.exists("Library Member", {"email_address": "shyam@gmail.com"}):
@@ -43,6 +33,7 @@ def add_static_member():
     frappe.db.commit()
     return {"status": "success", "name": doc.name}
 
+# Schedular events````````````````````````````````````
 @frappe.whitelist()
 def add_dynamic_member():
     # Hardcoded values or generate dynamically
@@ -65,3 +56,15 @@ def add_dynamic_member():
     frappe.db.commit()
 
 
+@frappe.whitelist()
+def get_membership_status(member_id):
+    has_membership = frappe.db.exists(
+        "Library Membership",
+        {
+            "library_member": member_id,
+            "docstatus": 1,
+            "from_date": ("<=", today()),
+            "to_date": (">=", today())
+        }
+    )
+    return "Active" if has_membership else "Inactive"

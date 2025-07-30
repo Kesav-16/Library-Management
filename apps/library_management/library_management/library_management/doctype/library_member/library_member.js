@@ -7,6 +7,8 @@
 // 	},
 // });
 
+// Client Script ``````````````````````````````````
+
 frappe.ui.form.on('Library Member', {
  refresh: function(frm) {
  frm.add_custom_button('Create Membership', () => {
@@ -23,6 +25,7 @@ frappe.ui.form.on('Library Member', {
 });
 
 
+// Form Events`````````````````````````````````````
 
 // frappe.ui.form.on('Library Member', {
 
@@ -105,6 +108,9 @@ frappe.ui.form.on('Library Member', {
     
 // });
 
+// END of Form Events`````````````````````````````````````
+
+
 // frappe.ui.form.on('Library Member', {
 //     refresh: function(frm) {
 //         // Check if the document is already saved (not new)
@@ -137,6 +143,7 @@ frappe.ui.form.on('Library Member', {
 //     })
 
 
+
 // frappe.ui.form.on('Library Member', {
 //     refresh: function(frm) {
 //         // Make 'First Name' mandatory
@@ -160,7 +167,7 @@ frappe.ui.form.on('Library Member', {
 // });
 
 
-// Standard Script form
+// Standard Script form`````````````````````````````````````````````````````````````````
 
 // frappe.ui.form.on('Library Member', {
 //     onload: function(frm) {
@@ -187,3 +194,64 @@ frappe.ui.form.on('Library Member', {
 //         frm.set_value('full_name', `${frm.doc.first_name} ${frm.doc.last_name}`);
 //     }
 // }
+
+
+// Desk Formatting List view
+// frappe.listview_settings['Library Member'] = {
+//     add_fields: ['membership_status'],
+
+//     get_indicator(doc) {
+//         if (doc.membership_status === "Active") {
+//             return [__("Active"), "green", "membership_status,=,Active"];
+//         } else {
+//             return [__("InActive"), "red", "membership_status,=,InActive"];
+//         }
+//     },
+    
+//     onload(listview) {
+//         const style = document.createElement('style');
+//         style.innerHTML = `
+//             .list-row-col.ellipsis a {
+//                 font-size: 16px;
+//                 font-family: 'Georgia';
+//                 font-weight: bold;
+//             }
+
+//             .indicator-pill {
+//                 font-family: 'Courier New';
+//                 font-weight: bold;
+//             }
+//         `;
+//         document.head.appendChild(style);
+//     }
+// };
+
+// fETCHING DETAILS LIKE MEMBERSHIP IS ACTIVE OR INACIVE `````````````````````````````````````
+
+// frappe.ui.form.on('Library Member', {
+//     refresh: function(frm) {
+//         if (!frm.doc.name) return;
+
+//         frappe.call({
+//             method: 'frappe.client.get_list',
+//             args: {
+//                 doctype: 'Library Membership',
+//                 filters: [
+//                     ['library_member', '=', frm.doc.name],
+//                     ['docstatus', '=', 1],
+//                     ['from_date', '<=', frappe.datetime.get_today()],
+//                     ['to_date', '>=', frappe.datetime.get_today()]
+//                 ],
+//                 limit_page_length: 1
+//             },
+//             callback: function(r) {
+//                 if (r.message && r.message.length > 0) {
+//                     frm.set_value('membership_status', 'Active');
+//                 } else {
+//                     frm.set_value('membership_status', 'InActive');
+//                 }
+//             }
+//         });
+//     }
+// });
+

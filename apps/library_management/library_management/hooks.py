@@ -252,10 +252,28 @@ doctype_js = {
 
 
 
+# scheduler_events = {
+#     "cron": {
+#         "* * * * *": [
+#             "library_management.library_management.doctype.library_member.library_member.add_dynamic_member"
+#         ]
+#     }
+# }
+
+
+override_query_report = {
+    "Library Members Report": "library_management.public.js.library_members_report"
+}
+
+
 scheduler_events = {
     "cron": {
         "* * * * *": [
-            "library_management.library_management.doctype.library_member.library_member.add_dynamic_member"
+            "library_management.library_management.doctype.chart_api.grade_chart_scheduler.send_latest_grade_to_chart"
         ]
     }
 }
+
+app_include_js = [
+    "/assets/library_management/js/chart_page.js"
+]

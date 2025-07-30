@@ -1,10 +1,8 @@
 # Copyright (c) 2025, Kesav and contributors
 # For license information, please see license.txt
-
-# Simple Python Script Report for Article DocType
+# Report Builder``````````````````````````````````````````````````````
 import frappe
-
-import frappe
+from frappe.utils.jinja import render_template 
 
 def execute(filters=None):
     columns = get_columns()
@@ -13,7 +11,8 @@ def execute(filters=None):
 
 def get_columns():
     return [
-        {"label": "Image", "fieldname": "image", "fieldtype": "Data", "width": 300},
+        {"label": "Image", "fieldname": "image", "fieldtype": "Data", "width": 100},
+        {"label": "Article", "fieldname": "article_name", "fieldtype": "Data", "width": 300},
         {"label": "Author", "fieldname": "author", "fieldtype": "Data", "width": 150},
         {"label": "ISBN", "fieldname": "isbn", "fieldtype": "Data", "width": 150},
         {"label": "Status", "fieldname": "status", "fieldtype": "Data", "width": 100},
@@ -40,6 +39,7 @@ def get_data(filters):
     query = f"""
         SELECT
             A.image,
+            A.article_name,
             A.author,
             A.isbn,
             A.status,
@@ -59,8 +59,30 @@ def get_data(filters):
             `tabLibrary Membership` M ON L.library_member = M.library_member
         WHERE
             {condition}
-        ORDER BY                          
+        ORDER BY
             A.modified DESC
     """
 
     return frappe.db.sql(query, values, as_dict=True)
+
+
+# @frappe.whitelist()
+# def get_custom_html(filters=None):
+#     columns, data = execute(frappe.parse_json(filters or "{}"))
+
+#     try:
+#         html = render_template(
+#             "library_management/report/article_report/templates/article_report.html",  # Must match file path
+#             {
+#                 "data": data,
+#                 "filters": filters,
+#                 "frappe": frappe,
+#             }
+#         )
+#         return html
+#     except Exception as e:
+#         frappe.log_error(frappe.get_traceback(), "Custom HTML Render Failed")
+#         return f"<p style='color:red;'>Template render failed:<br>{e}</p>"
+
+
+

@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CV-.###",
+ "creation": "2025-07-30 11:08:20.089376",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "event_title",
+  "description",
+  "column_break_ivxd",
+  "start_date",
+  "end_date",
+  "is_all_day_event"
+ ],
+ "fields": [
+  {
+   "fieldname": "event_title",
+   "fieldtype": "Data",
+   "label": "Event Title\t"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_ivxd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Datetime",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "label": "End Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_all_day_event",
+   "fieldtype": "Check",
+   "label": "Is All Day Event?"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "links": [],
+ "modified": "2025-07-30 11:10:56.348392",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Calendar Views",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

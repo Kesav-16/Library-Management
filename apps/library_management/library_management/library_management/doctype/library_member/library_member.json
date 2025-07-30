@@ -13,7 +13,8 @@
   "full_name",
   "column_break_mgox",
   "email_address",
-  "phone"
+  "phone",
+  "membership_status"
  ],
  "fields": [
   {
@@ -47,12 +48,19 @@
    "fieldname": "phone",
    "fieldtype": "Phone",
    "label": "Phone"
+  },
+  {
+   "fieldname": "membership_status",
+   "fieldtype": "Select",
+   "label": "Membership Status",
+   "options": "\nActive\nInActive",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-17 11:25:21.941600",
+ "modified": "2025-07-24 15:01:14.668309",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
@@ -87,5 +95,11 @@
  "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [
+  {
+   "color": "Orange",
+   "title": "Active"
+  }
+ ]
 }
+

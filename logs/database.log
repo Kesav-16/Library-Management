@@ -242,3 +242,287 @@ alter table `tabDocType` add column if not exists migration_hash varchar(140)
 alter table `tabDocType` add column if not exists migration_hash varchar(140)
 2025-07-22 17:13:21,056 WARNING database DDL Query made to DB:
 alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-24 12:40:49,479 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` ADD COLUMN `membership_status` varchar(140)
+2025-07-24 13:26:34,298 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-24 18:00:12,234 WARNING database DDL Query made to DB:
+create table `tabForm Api` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `amended_from`(`amended_from`),
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-24 18:01:10,717 WARNING database DDL Query made to DB:
+ALTER TABLE `tabForm Api` ADD COLUMN `name1` varchar(140), ADD COLUMN `age` int(11) not null default 0, ADD COLUMN `degree` varchar(140), ADD COLUMN `role` varchar(140)
+2025-07-24 18:02:12,657 WARNING database DDL Query made to DB:
+ALTER TABLE `tabForm Api` ADD UNIQUE INDEX IF NOT EXISTS name1 (`name1`)
+2025-07-25 11:17:13,187 WARNING database DDL Query made to DB:
+create table `tabServer Script Demo` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-25 11:18:06,247 WARNING database DDL Query made to DB:
+ALTER TABLE `tabServer Script Demo` ADD COLUMN `title` varchar(140), ADD COLUMN `description` text
+2025-07-25 11:39:20,847 WARNING database DDL Query made to DB:
+ALTER TABLE `tabServer Script Demo` ADD COLUMN `amended_from` varchar(140)
+2025-07-25 11:39:20,952 WARNING database DDL Query made to DB:
+ALTER TABLE `tabServer Script Demo` ADD INDEX `amended_from_index`(`amended_from`)
+2025-07-25 19:22:12,887 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-25 19:23:51,317 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-25 19:25:52,754 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-26 12:20:40,078 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-26 12:26:11,853 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-28 12:31:15,378 WARNING database DDL Query made to DB:
+create table `tabCommon Utilities API` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-28 12:37:48,543 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` ADD COLUMN `name1` varchar(140), ADD COLUMN `age` int(11) not null default 0, ADD COLUMN `blood_group` varchar(140), ADD COLUMN `address` varchar(140)
+2025-07-28 14:41:54,744 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` ADD COLUMN `start` date
+2025-07-28 14:43:41,555 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` ADD COLUMN `end` date
+2025-07-28 14:51:05,979 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` ADD COLUMN `title` varchar(140)
+2025-07-28 15:25:54,556 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` ADD COLUMN `salary` decimal(21,9) not null default 0
+2025-07-28 15:57:10,498 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` ADD COLUMN `start_date` date, ADD COLUMN `last_date` date
+2025-07-28 15:57:10,544 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` MODIFY `salary` decimal(21,9) not null default 0
+2025-07-29 12:54:34,436 WARNING database DDL Query made to DB:
+create table `tabDialog API` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-29 12:57:49,754 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDialog API` ADD COLUMN `name1` varchar(140), ADD COLUMN `gender` varchar(140), ADD COLUMN `age` int(11) not null default 0, ADD COLUMN `email` varchar(140)
+2025-07-29 13:05:29,356 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDialog API` ADD COLUMN `student_name` varchar(140), ADD COLUMN `grade` varchar(140), ADD COLUMN `dob` date, ADD COLUMN `is_enrolled` int(1) not null default 0
+2025-07-29 13:11:18,288 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDialog API` ADD COLUMN `date_of_birth` date
+2025-07-30 11:08:20,238 WARNING database DDL Query made to DB:
+create table `tabCalendar Views` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-30 11:10:16,504 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCalendar Views` ADD COLUMN `event_title` varchar(140), ADD COLUMN `description` text, ADD COLUMN `start_date` datetime(6), ADD COLUMN `end_date` datetime(6), ADD COLUMN `is_all_day_event` int(1) not null default 0
+2025-07-30 11:29:53,262 WARNING database DDL Query made to DB:
+create table `tabChart API` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-30 11:33:06,867 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChart API` ADD COLUMN `grade` varchar(140), ADD COLUMN `number_of_students` int(11) not null default 0
+2025-07-30 12:53:01,829 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 12:53:03,959 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommon Utilities API` MODIFY `salary` decimal(21,9) not null default 0
+2025-07-30 12:54:59,647 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 12:55:33,306 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 12:55:55,070 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 13:00:19,359 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 13:04:56,865 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 13:09:46,416 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 13:11:12,981 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 13:17:20,366 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 13:28:28,958 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 14:18:27,270 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 14:24:40,069 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 14:29:05,990 WARNING database DDL Query made to DB:
+create table `tabScanner API` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-30 14:29:45,619 WARNING database DDL Query made to DB:
+ALTER TABLE `tabScanner API` ADD COLUMN `user_name` varchar(140), ADD COLUMN `password` varchar(140)
+2025-07-30 14:40:36,270 WARNING database DDL Query made to DB:
+ALTER TABLE `tabScanner API` ADD COLUMN `network_name` varchar(140)
+2025-07-30 14:51:11,925 WARNING database DDL Query made to DB:
+ALTER TABLE `tabScanner API` ADD COLUMN `username` varchar(140)
+2025-07-30 14:57:58,552 WARNING database DDL Query made to DB:
+ALTER TABLE `tabScanner API` MODIFY `password` text
+2025-07-30 15:01:48,676 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 15:04:58,654 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 15:13:15,340 WARNING database DDL Query made to DB:
+ALTER TABLE `tabScanner API` MODIFY `password` varchar(140)
+2025-07-30 15:14:16,463 WARNING database DDL Query made to DB:
+ALTER TABLE `tabScanner API` MODIFY `password` text
+2025-07-30 15:58:43,085 WARNING database DDL Query made to DB:
+create table `tabFamily Tree` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`lft` int(11) not null default 0,
+`rgt` int(11) not null default 0,
+`is_group` int(1) not null default 0,
+`old_parent` varchar(140),
+`parent_family_tree` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-30 16:00:39,053 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFamily Tree` ADD COLUMN `member_name` varchar(140), ADD COLUMN `age` int(11) not null default 0, ADD COLUMN `gender` varchar(140), ADD COLUMN `relation` varchar(140), ADD COLUMN `description` text
+2025-07-30 16:08:57,976 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFamily Tree` ADD UNIQUE INDEX IF NOT EXISTS member_name (`member_name`)
+2025-07-30 16:21:38,806 WARNING database DDL Query made to DB:
+RENAME TABLE `tabFamily Tree` TO `tabFamily Tree API`
+2025-07-30 16:29:57,883 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 16:31:00,854 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 16:33:43,313 WARNING database DDL Query made to DB:
+create table `tabTree API` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`lft` int(11) not null default 0,
+`rgt` int(11) not null default 0,
+`is_group` int(1) not null default 0,
+`old_parent` varchar(140),
+`parent_tree_api` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-07-30 17:08:39,012 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 17:08:40,734 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTree API` ADD COLUMN `member_name` varchar(140), ADD COLUMN `age` int(11) not null default 0, ADD COLUMN `gender` varchar(140), ADD COLUMN `relation` varchar(140), ADD COLUMN `description` text
+2025-07-30 17:09:37,690 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTree API` ADD UNIQUE INDEX IF NOT EXISTS member_name (`member_name`)
+2025-07-30 17:25:34,445 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-07-30 17:29:21,419 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)

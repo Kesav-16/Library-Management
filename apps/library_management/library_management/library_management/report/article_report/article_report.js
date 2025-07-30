@@ -17,3 +17,30 @@ frappe.query_reports["Article Report"] = {
         }
     ]
 };
+
+frappe.query_reports["Article Report"] = {
+    formatter: function(value, row, column, data, default_formatter) {
+        // First, apply the default formatter
+        value = default_formatter(value, row, column, data);
+
+        // Show image as thumbnail
+        if (column.fieldname === "image" && value) {
+            return `<img src="${value}" style="width: 50px; height: auto; border-radius: 4px;">`;
+        }
+
+        // Style status field
+        if (column.fieldname === "status") {
+            if (value === "Available") {
+                return `<span style="color:green; font-weight:bold;">${value}</span>`;
+            } else {
+                return `<span style="color:red;">${value}</span>`;
+            }
+        }
+
+        // Default return
+        return value;
+    }
+};
+
+
+
